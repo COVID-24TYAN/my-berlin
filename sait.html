@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Берлін</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #fafafa;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover { background: #555; }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        aside {
+            flex: 1 1 220px;
+            background: #f0f0f0;
+            padding: 15px;
+        }
+
+        main {
+            flex: 3 1 600px;
+            padding: 20px;
+        }
+
+        /* БІЛЬШЕ ПРОСТОРУ МІЖ БЛОКАМИ */
+        section {
+            margin-bottom: 45px;
+            padding-bottom: 10px;
+        }
+
+        h2 { margin-bottom: 12px; color: #222; }
+
+        p { margin-bottom: 10px; }
+
+        ul { margin-left: 20px; margin-bottom: 10px; }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container { flex-direction: column; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Берлін</h1>
+    <p>Столиця Німеччини та культурний центр Європи</p>
+</header>
+
+<nav>
+    <a href="#about">Про місто</a>
+    <a href="#history">Історія</a>
+    <a href="#places">Пам’ятки</a>
+    <a href="#culture">Культура</a>
+    <a href="#facts">Цікаві факти</a>
+</nav>
+
+<div class="container">
+
+<aside>
+    <h3>Навігація</h3>
+    <ul>
+        <li><a href="#about">Про Берлін</a></li>
+        <li><a href="#history">Історія</a></li>
+        <li><a href="#places">Пам’ятки</a></li>
+        <li><a href="#culture">Культура</a></li>
+        <li><a href="#facts">Факти</a></li>
+    </ul>
+</aside>
+
+<main>
+
+<section id="about">
+    <h2>Про Берлін</h2>
+    <p>Берлін — столиця Німеччини та одне з найбільших міст Європи. Тут проживає понад 3,5 мільйона людей.</p>
+    <p>Місто є важливим політичним, економічним та культурним центром країни.</p>
+    <p>Берлін відомий своєю сучасною архітектурою, музеями та багатонаціональною атмосферою.</p>
+</section>
+
+<section id="history">
+    <h2>Історія Берліна</h2>
+    <p>Берлін має складну історію, пов’язану з подіями XX століття.</p>
+    <p>Після Другої світової війни місто було поділене на Східний і Західний Берлін.</p>
+    <p>У 1989 році впала Берлінська стіна, що стало символом об’єднання Німеччини.</p>
+</section>
+
+<section id="places">
+    <h2>Пам’ятки</h2>
+    <ul>
+        <li>Бранденбурзькі ворота — символ єдності</li>
+        <li>Рейхстаг — парламент Німеччини</li>
+        <li>Берлінська телевежа — одна з найвищих у Європі</li>
+        <li>Музейний острів — комплекс світових музеїв</li>
+    </ul>
+</section>
+
+<section id="culture">
+    <h2>Культура Берліна</h2>
+    <p>Берлін — це місто мистецтва, музики та сучасної культури.</p>
+    <p>Тут проходять відомі фестивалі, виставки та концерти.</p>
+    <p>Місто відоме своєю вуличною культурою та різноманітністю.</p>
+</section>
+
+<section id="facts">
+    <h2>Цікаві факти про Берлін</h2>
+    <ul>
+        <li>У Берліні більше мостів, ніж у Венеції</li>
+        <li>Місто має понад 170 музеїв</li>
+        <li>Берлін — одне з найзеленіших міст Європи</li>
+        <li>Тут проходить Берлінський кінофестиваль (Berlinale)</li>
+        <li>Берлін був столицею кількох історичних держав</li>
+    </ul>
+</section>
+
+</main>
+
+</div>
+
+<footer>
+    <p>© 2026 Берлін</p>
+</footer>
+
+</body>
+</html>
